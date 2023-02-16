@@ -1,10 +1,10 @@
 
 package Inheritance;
 
-import java.util.ArrayList;
-import java.util.List;
+//import java.util.ArrayList;
+//import java.util.List;
 
-import org.openqa.selenium.Alert;
+//import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 //import org.openqa.selenium.OutputType;
@@ -14,7 +14,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.interactions.Actions;
 //import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
+//import org.openqa.selenium.support.ui.Select;
 //import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ERP {
@@ -117,7 +117,7 @@ public class ERP {
         WebElement scroll=driver.findElement(By.xpath("//*[@id=\"dropdownMenuReference\"]"));
         JavascriptExecutor js2 =(JavascriptExecutor)driver;
 
-        js2.executeScript("document.querySelector(scroll).scrolright=100");
+        js2.executeScript("document.querySelector(scroll).scrolri	ght=100");
         //driver.findElement(By.xpath("//div/button[@class='btn btn-outline-dark btn-sm dropdown-toggle dropdown-toggle-split']")).click();
         //driver.findElement(By.xpath("//*[@id=\"dropdownMenuReference\"]")).click();
         driver.findElement(By.xpath("//*[@id=\"dropdownMenuReference\"]")).click();
